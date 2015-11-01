@@ -1,6 +1,6 @@
 {
   "name": "temple-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Temple loader for webpack",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,15 @@
     "loader-utils": "^0.2.11",
     "temple-wat": "^0.2.1",
     "xmldom": "^0.1.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurikk/temple-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurikk/temple-loader/issues"
+  },
+  "homepage": "https://github.com/nurikk/temple-loader#readme"
 }
