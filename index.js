@@ -28,5 +28,6 @@ module.exports = function (content) {
     if (templates[k].length > 1) //Ignore stop instruction
       templates_code.push('"' + k + '"' + ': function(pool){' + builder(templates[k]) + '}');
   }
-  return 'module.exports = {' + templates_code.join(',') + '};';
+  return 'var temple_utils = require("temple-wat");' +
+    'module.exports = { ' + templates_code.join(',') + '};';
 };
