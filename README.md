@@ -35,7 +35,7 @@ var data = {
 };
 var temple_data = pool.get('files_list'); // => returns file.temple content as a temple obj
 document.body.appendChild(temple_data[0]);
-temple_data.update(data);
+temple_data[1].update(data);
 ```
 
 See [`webpack`](https://github.com/webpack/webpack) documentation for more information regarding loaders.
